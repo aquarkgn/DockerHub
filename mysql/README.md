@@ -1,5 +1,5 @@
 # mysql
-> [hub_docker_mysql]https://hub.docker.com/_/mysql
+> mysql source: https://hub.docker.com/_/mysql
 
 ## RUN
 ```shell
