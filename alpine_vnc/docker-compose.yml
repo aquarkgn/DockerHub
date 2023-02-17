@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  alpine_vnc:
+    image: gnofdocker/alpine_vnc:v0.1
+    ports:
+      - 5900:5900
+    restart:
+      always
+    command: ["/usr/bin/supervisord","-c","/etc/supervisord.conf"]
