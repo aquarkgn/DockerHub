@@ -1,9 +1,8 @@
 version: '3.3'
 services:
-  centos-ssh:
-    image: gnofdocker/alpine_ssh:latest
+  alpine_sshd:
+    image: gnofdocker/alpine_sshd:latest
     ports:
-      - 39922:22
+      - 37022:22
     restart:
       always
-    command: ["/bin/sh"]
