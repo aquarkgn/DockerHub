@@ -20,3 +20,10 @@ _book
 .history
 .vscode
 .local
+
+
+
+# mysql
+mysql/.*
+mysql/data
+mysql/logs
