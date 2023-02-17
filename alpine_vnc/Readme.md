@@ -1,5 +1,5 @@
-# About
-x11vnc on alpine linux
+# alpine_vnc
+> https://hub.docker.com/r/gnofdocker/alpine_vnc
 
 ## RUN
 ```shell
