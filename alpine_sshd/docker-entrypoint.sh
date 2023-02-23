@@ -13,5 +13,7 @@ touch /root/.ssh/authorized_keys
 echo ${ROOT_AUTHORIZED_KEY} > /root/.ssh/authorized_keys
 chmod 600 /root/.ssh/authorized_keys
 
+echo "sshd: ALL" >> /etc/hosts.allow
+
 # do not detach (-D), log to stderr (-e), passthrough other arguments
 exec /usr/sbin/sshd -D -e "$@"
